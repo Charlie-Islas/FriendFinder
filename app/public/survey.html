@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+	
+        <h1>Welcome to the Friend Finder...</h1>
+        <h3>       The place to find your soulmate!</h3>
+		<hr>
+		<form role="form" id="survey">
+			<h2>About you</h2>
+			<div class="form-group">
+				<label for="usr">Name: (Required)</label>
+				<input type="text" class="form-control" id="name">
+			</div>
+			<div class="form-group">
+				<label for="pic">URL for Photo: (Required)</label>
+				<input type="text" class="form-control" id="pic">
+			</div>
+			<hr>
+			<h2>Answer the following questions as accurately as possible: </h2>
+
+			<div class="row col-lg-12">
+				<h3>Question 1</h3>
+				<h4>You are outgoing and like to talk to people.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest1">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 2</h3>
+				<h4>In general, you consider yourself to be physically attractive and handsome/pretty.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest2">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 3</h3>
+				<h4>You take a long time to open up and talk about your real feelings.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest3">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 4</h3>
+				<h4>You are always faithful.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest4">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 5</h3>
+				<h4>When you are dating someone, you are jealous and possessive.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest5">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 6</h3>
+				<h4>You like to listen to other people's feelings and concerns.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest6">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 7</h3>
+				<h4>You will defend your partner over anyone and anything else.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest7">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 8</h3>
+				<h4>You like to party, drink and/or club.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest8">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 9</h3>
+				<h4>You accept other opinions even if you disagree with them.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest9">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 10</h3>
+				<h4>You prefer to spend one on one time instead of time in a big group of people.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest10">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			
+			<button type="button" class="btn btn-success btn-block" id="submit">Submit</button>
+	
+		</form>
+
+		<!-- Modal -->
+  <div class="modal fade" id="friend-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <footer>
+	  
+	  <br>
+	<p>
+	  <a href="/api/friends" target="_blank">API Friends List</a> | 
+	  <a href="https://github.com/Charlie-Islas/FriendFinder" target="_blank">Github Repo</a>
+  
+  </p>   
+  </footer>
+	</div>
+<script type="text/javascript">
+		 
+	$('#submit').on("click", function(){
+
+		if($("#name").val().trim() === ''){
+			alert('Please enter a name');
+		}
+		else if($("#pic").val().trim() === ''){
+			alert('Please enter a link to photo');
+		}
+		else{
+			var answerArray = [];
+			for(i=1; i<11; i++){
+                //takes the answer and in case of 1 or 5, it takes away the rest of the string
+				answerArray.push(parseInt($('#quest' + i).val().substring(0,1)));
+			}
+			console.log(answerArray);
+			var newFriend = 
+			{
+				name: $("#name").val().trim(),
+				photo: $("#pic").val().trim(),
+				scores: answerArray
+			};
+            var currentURL = window.location.origin;
+            
+            //send the information to the friends API
+            $.post(currentURL + "/api/friends", newFriend,
+            function(data){});
+            
+            //AJAX call to access the friends API and compare the new information with the previous one
+
+            $.ajax({url: currentURL + "/api/friends", method: "GET"}).done(function(res){
+					
+				var bestFriend;
+				var currentBest = 100;
+                var differenceArray = [];
+                
+				//For loop to compare all the previously existing friends except the newly created one.
+				for(i=0; i < res.length - 1; i++){
+					//compares the values from the survey questions and pushes the absolute value of the differences to the difference array
+					for(j=0; j<10; j++){
+						var currentDifference = newFriend.scores[j] - res[i].scores[j];
+						differenceArray.push(Math.abs(currentDifference));
+					}
+                    //line to add all the difference to obtain a single value and compare it to the best match till now
+                    var difference = differenceArray.reduce(add, 0);
+                    
+                    //if the difference is less than the current best match, change the best match to this one
+                    if(difference < currentBest){
+						bestFriend = res[i];
+						currentBest = difference;
+						differenceArray = [];
+					}
+					//or don't...
+					else{
+						differenceArray =[];
+					}
+					
+				}
+				//displaying the result in a modal 
+				var friendName = '<h4>The best match for you is: ' + bestFriend.name + '! <br> <br>Take a look at his/her picture: </h4>';
+				var friendPic = '<img width="300px" alt="Sorry, the picture provided by the user is not loading! :/ " src=' + bestFriend.photo + '>';
+				$('#friend-modal').modal('show');
+				$('#friend-modal h4').html(friendName);
+				$('.modal-body').html(friendPic);
+				$('#survey')[0].reset();
+				
+			});
+		}
+return false;
+});
+function add(a, b){
+	return a+b;
+};
+</script>
+</body>
